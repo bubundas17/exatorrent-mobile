@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"crawshaw.io/sqlite"
-	"crawshaw.io/sqlite/sqlitex"
+	"zombiezen.com/go/sqlite"
+	"zombiezen.com/go/sqlite/sqlitex"
 
 	"github.com/anacrolix/torrent/metainfo"
 	"github.com/anacrolix/torrent/storage"

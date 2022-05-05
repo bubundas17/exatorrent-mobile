@@ -1,0 +1,1 @@
+gomobile bind -o ./build/torrent.aar -target=android

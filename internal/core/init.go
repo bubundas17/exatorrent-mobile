@@ -16,7 +16,7 @@ import (
 	"github.com/anacrolix/chansync"
 	utp "github.com/anacrolix/go-libutp"
 
-	"github.com/varbhat/exatorrent/internal/db"
+	"exatorrent/internal/db"
 
 	"github.com/anacrolix/torrent"
 	"github.com/anacrolix/torrent/metainfo"

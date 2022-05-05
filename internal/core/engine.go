@@ -8,7 +8,7 @@ import (
 
 	"github.com/anacrolix/chansync"
 
-	"github.com/varbhat/exatorrent/internal/db"
+	"exatorrent/internal/db"
 
 	"github.com/anacrolix/torrent"
 	"github.com/anacrolix/torrent/metainfo"

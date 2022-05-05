@@ -3,9 +3,9 @@ package db
 import (
 	"sync"
 
-	"crawshaw.io/sqlite"
-	"crawshaw.io/sqlite/sqlitex"
 	"github.com/anacrolix/torrent/metainfo"
+	"zombiezen.com/go/sqlite"
+	"zombiezen.com/go/sqlite/sqlitex"
 )
 
 type SqliteFSDb struct {

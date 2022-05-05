@@ -6,7 +6,7 @@ package core
 import (
 	"path/filepath"
 
-	"github.com/varbhat/exatorrent/internal/db"
+	"exatorrent/internal/db"
 
 	"github.com/anacrolix/torrent"
 )

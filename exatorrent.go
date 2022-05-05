@@ -1,4 +1,4 @@
-package main
+package exatorrent
 
 import (
 	"net"
@@ -7,13 +7,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/varbhat/exatorrent/internal/core"
-	"github.com/varbhat/exatorrent/internal/web"
+	"exatorrent/internal/core"
+	"exatorrent/internal/web"
 )
 
-func main() {
+func StartService() {
 	core.Initialize()
-
 	http.HandleFunc("/api/socket", core.SocketAPI)
 	http.HandleFunc("/api/auth", core.AuthCheck)
 	http.HandleFunc("/api/stream/", core.StreamFile)

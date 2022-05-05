@@ -6,8 +6,8 @@ package db
 import (
 	"sync"
 
-	"crawshaw.io/sqlite"
-	"crawshaw.io/sqlite/sqlitex"
+	"zombiezen.com/go/sqlite"
+	"zombiezen.com/go/sqlite/sqlitex"
 )
 
 type SqliteTdb struct {
